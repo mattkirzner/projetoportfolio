@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+
+/* Estilo geral */
+
+:root {
+  --mainbg: rgb(53, 52, 52);
+  --maintext: white;
+  --logored: #c44949;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Orbitron, open-sans;
+  color: var(--maintext);
+}
+
+body {
+  background-color: var(--mainbg);
+  height: 100vh;
+}
+
+.centralize {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+
+.flex {
+  display: flex;
+}
+
+/* Estilo do cabeçalho */
+a:visited,
+a:link {
+  color: var(--maintext);
+}
+
+a:hover {
+  color: var(--logored);
+}
+
+.toplinks {
+  align-items: middle;
+}
+
+.dividequatro {
+  display: inline-block;
+  padding: 40px;
+  text-decoration: none;
+}
+
+header {
+  padding: 40px 4%;
+}
+
+header > .centralize {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  align-items: left;
+}
+
+/* topo do site */
+
+section.topoSite {
+  padding: 40px 4%;
+}
+
+section.topoSite .flex {
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+.topoSite h1 {
+  font-size: 50px;
+  line-height: 45px;
+}
+
+.topoSite .textoTopoSite p {
+  margin: 40px 0;
+}
+.btn-contato {
+  color: var(--maintext);
+  background-color: var(--mainbg);
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+}
+
+a .btn-contato {
+  border: 2px solid var(--maintext);
+  border-radius: 30px;
+}
+
+a .btn-contato:hover {
+  color: var(--logored);
+  border-color: var(--logored);
+  cursor: pointer;
+}
+
+/* especialidades */
+
+h2.titulo {
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+section.especialidades {
+  padding: 40px 4%;
+}
+
+.especialidades .especialidades-box {
+  padding: 40px;
+  text-align: center;
+  border: 2px solid var(--logored);
+  border-radius: 15px;
+}
+
+section.especialidades .flex {
+  gap: 60px;
+}
+
+.especialidades .especialidades-box i {
+  font-size: 50px;
+  color: var(--logored);
+}
+
+.especialidades .especialidades-box h3 {
+  font-size: 30px;
+  margin: 15px 0;
+}
+
+/* Página de contato */
+
+.topoContatos{
+  min-height: 70%;
+}
+
+.icon{
+    padding: 10px;
+    color: var(--logored);
+    font-size: 100px;
+    
+}
+
+.aicon{
+  text-decoration: none;
+}
+
+.ispace{
+  padding-bottom: 20px;
+}
+
+#textocontato{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.icon-box{
+    padding: 50px;
+}
+   
+/* Página projeto */
+
+.cone{
+  font-size: 400px;
+  color: var(--logored);
+}
+
+.textoProjetos{
+  text-align: middle;
+}
+
+#headerProjetos{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+/* Pagina sobre */
+/* fim do site */
+
+.fimDoSite {
+  color: var(--logored);
+  margin-bottom: 10px;
+}
